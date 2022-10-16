@@ -1,0 +1,80 @@
+nav a{
+    padding: 5px 5px 5px 5px;
+    margin: 5px 7px 5px 7px;
+}
+
+header .wrapper{
+    padding-bottom: 115px;
+}
+header{
+    border-bottom: 60px solid #eaeaea;
+}
+
+#topbar li {
+    padding-top: 30px;
+}
+  
+footer .wrapper{
+    padding-bottom: 40px;
+}
+
+main .wrapper{
+    padding: 50px 0px 50px 0px ;
+}
+
+ footer li{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 3px;
+    margin-top: 0;
+}
+
+
+section h4{
+    padding-top: 30px;
+}
+
+#bestelnu{
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+.button a{
+    margin-top: 10px;
+    padding: 5px 8px 5px 8px;
+}
+
+section p{
+    margin-top: 15px;
+}
+
+#social li a{
+    padding: 0px;
+}
+
+header blockquote{
+    margin-top: 20px;
+}
+
+
+#ctaNetlog {
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 0px;
+    padding-left: 95px;
+}
+
+#ctaTwitter{
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 0px;
+    padding-left: 95px;
+}
+
+#ctaFacebook{
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 0px;
+    padding-left: 95px; 
+
+}

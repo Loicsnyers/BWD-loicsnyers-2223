@@ -1,0 +1,77 @@
+/* ===========================================
+   Main
+   =========================================== */
+
+
+/* top */
+
+#main_top {
+   padding: 30px 15px 0 15px;
+}
+
+#main_top h2 {
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+address {
+   font-size: 14px;
+   font-style: normal;
+   line-height: 1.6;
+   margin-bottom: 20px;
+}
+
+/* bottom */
+
+#main_bottom {
+   padding: 30px 15px 0 15px;
+}
+
+iframe {
+   border: none;
+   width: 445px;
+   height: 500px;
+   position: relative;
+   left: 480px;
+   bottom: 445px;
+}
+
+
+/* form */
+
+ form label{
+   font-size: 16px;
+   font-style: italic;
+   display: table-cell;
+   right: 50px;
+}
+
+form input {
+   padding: 7px;
+   display: table-cell;
+   width: 325px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 25px;
+   border: 1px solid lightgrey;
+}
+
+form{
+   display: table;
+}
+
+form p{
+   display: table-row;
+}
+
+textarea{
+   width: 325px;
+   height: 125px;
+   margin-left: 25px;
+   border: 1px solid lightgrey;
+}
+
+
+.btn-cta{
+   margin-top: 20px;
+}  
