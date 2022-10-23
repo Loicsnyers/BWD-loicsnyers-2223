@@ -1,0 +1,172 @@
+/**
+ * Layout styles for Desert Tours
+ *
+ * @author Rogier van der Linde <rogier.vanderlinde@kahosl.be>
+ *
+ */
+
+/* GENERAL */
+/* ======= */
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    max-width: 960px;
+    min-width: 320px;
+}
+
+
+
+/* HEADER */
+/* ====== */
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+li span{
+    margin-left: 25px;
+}
+
+li a{
+    margin-left: 25px;
+}
+
+
+/* MAIN */
+/* ====== */
+
+#gallery img{
+    max-width: 100%;
+}
+
+#gallery li{
+    max-width: 23%;
+    margin: 10px 5px 10px 5px;
+}
+
+#gallery li a{
+    margin-left: 0px;
+}
+
+#gallery ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#gallery a{
+    margin-right: 20px;
+}
+
+
+.visual{
+    float: left;
+    margin-right: 10px;
+}
+
+.thumb{
+    float: right;
+    margin-left: 5px;
+}
+
+.thumb1{
+    float: right;
+    margin-left: 10px;
+}
+
+/* CONTENT */
+/* ======= */
+
+#content .left{
+    width: 65%;
+}
+
+#content .right{
+    width: 30%;
+    margin-left: 50px;
+}
+
+#content{
+    display: flex;
+}
+
+/* DOORMAT */
+/* ======= */
+
+#doormat .wrapper{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#doormat a{
+    margin-left: 0px;
+}
+
+.doormat_col{
+    margin-right: 55px;
+}
+
+/* FOOTER */
+/* ======= */
+
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (min-width: 400px) {
+    nav ul{
+        display: block;
+    }
+
+    #gallery li{
+        display: block;
+        max-width: 47%;
+    }
+
+    #gallery ul{
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 100%;
+    }
+
+    #content{
+        display: block;
+    }
+
+    #content .left{
+        width: 100%;
+    }
+
+    #content .right{
+        width: 100%;
+        display:block;
+        margin: 0px 0px 0px 0px;
+    }
+
+    #doormat .wrapper{
+        display: inline-block;
+    }
+
+    footer .wrapper{
+        display: block;
+    }
+
+    footer p{
+        margin-bottom: 15px;
+    }
+}
