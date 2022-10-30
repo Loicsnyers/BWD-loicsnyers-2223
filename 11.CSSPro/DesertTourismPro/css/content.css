@@ -1,0 +1,87 @@
+/* GENERAL */
+/* ======= */
+
+body {
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 0.75rem;
+    padding: 0rem 1.25rem;
+}
+
+a {
+    color: #982216;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 0.625rem;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+h3, h4 {
+    margin-bottom: 0.313rem;
+}
+
+/* GENERAL */
+/* ======= */
+
+body {
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* content */
+
+#content {
+    line-height: 1.6;
+}
+
+/* content left */
+
+main .visual {
+    border: 0.063rem solid #999;
+    padding: 0.313rem;
+    width: 7.813rem;
+}
+
+/* aside right */
+
+aside section {
+    margin-bottom: 1.875rem;
+}
+
+aside .thumb {
+    border: 0.063rem solid #999;
+    display: block;
+    height: 5.625rem;
+    padding: 0.25rem;
+    width: 5.625rem;
+}
+
+aside .readmore {
+    text-align: right;
+}
+
+/* CONTENT */
+/* ======= */
+
+#content .left {
+    width: 65%;
+}
+
+#content .right {
+    width: 30%;
+    margin-left: 3.125rem;
+}
+
+#content {
+    display: flex;
+}

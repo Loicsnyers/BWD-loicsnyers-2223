@@ -1,0 +1,22 @@
+/* navigation */
+
+nav ul{
+    display: flex;
+    list-style: none;
+ }
+ 
+ 
+ #mainmenu a {
+     color: #000;
+     font-size: 1.063rem;
+    text-transform: uppercase;
+    margin-left: 2.188rem;
+ 
+ 
+ }
+ 
+ #mainmenu a:hover,
+ #mainmenu .active a {
+     color: #14833b;
+     text-decoration: none;
+ }

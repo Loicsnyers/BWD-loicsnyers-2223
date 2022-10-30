@@ -1,0 +1,45 @@
+/*=======*/
+/*HEADER*/
+
+
+nav a {
+    color: rgb(25, 145, 25);
+    margin-left: 1.563rem;
+    transition: 0.5s ease-in-out;
+    padding: 0.313rem 0.313rem 0.313rem 0.313rem;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    background-color: rgb(25, 145, 25);
+}
+
+.active{
+    color: white;
+    background-color: rgb(25, 145, 25);
+
+}
+
+
+header{
+    background-color: white;
+    border-bottom: none;
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo span{
+    display: none;
+}

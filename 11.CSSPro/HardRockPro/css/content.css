@@ -1,0 +1,40 @@
+/* ===========================================
+   Main content
+   =========================================== */
+
+/* logo */
+
+.logo h1 {
+	font-size: 3rem;
+}
+
+.logo h1 a {
+	color: #333;
+   font-family: 'Special Elite', cursive;
+}
+
+.logo h1 a:hover {
+	text-decoration: none;
+}
+
+.logo p {
+	font-size: 0.875rem;
+	color: #555;
+	font-style: italic;
+}
+
+main .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ main {
+     background-color: #fff;
+    padding-bottom: 3.125rem;
+ }
+ 
+ main p {
+     color: #666;
+     line-height: 1.25rem;
+ }

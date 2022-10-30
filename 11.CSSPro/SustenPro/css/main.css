@@ -1,0 +1,140 @@
+/*=====*/
+/*MAIN*/
+
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.planet{
+    margin: 1rem;
+    
+}
+
+.people{
+    margin: 1rem;
+    margin-left: 0rem;
+}
+
+.plate{
+    margin: 1rem;
+}
+
+.people img{
+    border-bottom: 0.25rem solid rgb(45, 151, 45);
+}
+
+.planet img{
+    border-bottom: 0.25rem solid rgb(45, 151, 45);
+}
+
+.plate img{
+    border-bottom: 0.25rem solid rgb(45, 151, 45);
+}
+
+.more{
+    text-decoration: none;
+    color: rgb(70, 126, 182);
+}
+
+.doormat{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.375rem;
+}
+
+.shareholder{
+    max-width: 33%;
+}
+
+.download{
+    
+    border: 0.094rem solid rgb(70, 126, 182);
+    background-color: rgb(220, 255, 255);
+    width: 33%;
+    display: block;
+    height: fit-content;
+    margin-left: 2rem;
+}
+
+.download h3{
+    padding-left: 1.25rem;
+    padding-top: 0.625rem;
+}
+
+.download ul{
+    list-style: none;
+    padding-left: 1.25rem;
+    line-height: 1.55;
+    padding-bottom: 0.625rem;
+}
+
+.download a{
+    color: rgb(70, 126, 182);
+}
+
+
+
+.iframe{
+    max-width: 33%;
+    margin-left: 1rem;
+}
+
+
+footer{
+    background-color: rgb(28, 27, 27);
+}
+
+footer a{
+    color: white;
+}
+
+small{
+    color: lightgrey;
+}
+
+label{
+    color: lightgray;
+}
+
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.25rem;
+}
+
+#list ul{
+    display: flex;
+    margin-left: -2.5rem;
+    list-style: none;
+    text-decoration: underline;
+    margin-bottom: 0.063rem;
+}
+
+#listright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#listright input{
+    margin-left: 2.5rem;
+    margin-right: 0.313rem;
+}
+
+
+#list a{
+    color: white;
+    margin-right: 0.625rem;
+}
+
+small{
+    color: lightgrey;
+}
+
+label{
+    color: lightgray;
+}

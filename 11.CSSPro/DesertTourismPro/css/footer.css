@@ -1,0 +1,25 @@
+/* FOOTER */
+/* ======= */
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1.25rem 1.25rem;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* FOOTER */
+/* ======= */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

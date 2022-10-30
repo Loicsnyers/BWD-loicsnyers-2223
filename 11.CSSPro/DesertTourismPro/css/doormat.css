@@ -1,0 +1,32 @@
+/* DOORMAT */
+/* ======= */
+
+#doormat {
+    background-color: #eee;
+    padding: 2.5rem 1.25rem;
+}
+
+#doormat ul {
+    list-style: none;
+}
+
+#doormat li {
+    margin: 0.5rem 0rem;
+}
+
+/* DOORMAT */
+/* ======= */
+
+#doormat {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#doormat a {
+    margin-left: 0rem;
+}
+
+.doormat_col {
+    margin-right: 3.438rem;
+}

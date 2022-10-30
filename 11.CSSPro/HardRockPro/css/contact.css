@@ -1,0 +1,77 @@
+/* ===========================================
+   Main
+   =========================================== */
+
+
+/* top */
+
+#main_top {
+   padding: 1.875rem 0.938rem 0rem 0.938rem;
+}
+
+#main_top h2 {
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+address {
+   font-size: 0.875rem;
+   font-style: normal;
+   line-height: 1.6;
+   margin-bottom: 1.25rem;
+}
+
+/* bottom */
+
+#main_bottom {
+   padding: 1.875rem 0.938rem 0rem 0.938rem;
+}
+
+iframe {
+   border: none;
+   width: 27.813rem;
+   height: 31.25rem;
+   position: relative;
+   left: 30rem;
+   bottom: 27.813rem;
+}
+
+
+/* form */
+
+ form label{
+   font-size: 1rem;
+   font-style: italic;
+   display: table-cell;
+   right: 3.125rem;
+}
+
+form input {
+   padding: 0.438rem;
+   display: table-cell;
+   width: 14.688rem;
+   margin-top: 0.625rem;
+   margin-bottom: 0.625rem;
+   margin-left: 1.563rem;
+   border: 0.063rem solid lightgrey;
+}
+
+form{
+   display: table;
+}
+
+form p{
+   display: table-row;
+}
+
+textarea{
+   width: 14.688rem;
+   height: 7.813rem;
+   margin-left: 1.563rem;
+   border: 0.063rem solid lightgrey;
+}
+
+
+.btn-cta{
+   margin-top: 1.25rem;
+}  
