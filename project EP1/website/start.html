@@ -5,168 +5,221 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="start.css">
-    <title>SnyersPhotography</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/carousel.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/start.css">
+    <title>EmmanuelSnyers</title>
 </head>
+<!--readme lezen!-->
 
 <body>
     <header>
         <div class="wrapper">
-            <h1>Snyers Photography</h1>
-            <!--get h1 in li! for easier css work-->
+            <h1 id="logo"><a href=""><img src="img/logo2.png" alt=""><span>Emmanuel Snyers</span></a></h1>
             <div id="selector">
                 <ul>
                     <li><a href="#">nl</a></li>
                     <li><a href="#">fr</a></li>
                     <li><a href="#">en</a></li>
-                    <!--this is a list for now! | this could be also a form with type=submit -->
-                    <!--still needs link in href if in the ends its a list and not a form! | link will be other pages in href if list is definitive-->
-                    <!-- translation needed for english and french?-->
                 </ul>
             </div>
         </div>
     </header>
     <main>
-        <img src="#" alt="logo SnyersPhotography">
-        <!--logo sitll needed-->
         <nav>
             <ul class="menu">
-                <li><a href="#">start</a></li>
-                <li><a href="#">galerij</a></li>
-                <li><a href="#">evenementen</a></li>
-                <li><a href="#">tarieven</a></li>
-                <li><a href="#">contact</a></li>
-                <!--hover added later in css!-->
+                <li><a href="start.html">start</a></li>
+                <li><a href="galerij.html">galerij</a></li>
+                <li><a href="evenementen.html">evenementen</a></li>
+                <li><a href="tarieven.html">tarieven</a></li>
+                <li><a href="contact.html">contact</a></li>
             </ul>
         </nav>
-        <img src="#" alt="slide show">
-        <!--figcaption maybe needed for text inside slide show done with javascript-->
+        <div id="mainCarousel" class="carousel">
+            <div class="carousel__slide" data-src="img/photo1.png">
+                <img src="img/photo1.png" alt="">
+            </div>
+            <div class="carousel__slide" data-src="img/photo2.png">
+                <img src="img/photo2.png" alt="">
+            </div>
+            <div class="carousel__slide" data-src="img/photo3.png">
+                <img src="img/photo3.jpg" alt="">
+            </div>
+            <div class="carousel__slide" data-src="img/photo4.png">
+                <img src="img/photo4.jpg" alt="">
+            </div>
+            <div class="carousel__slide" data-src="img/photo5.png">
+                <img src="img/photo5.jpg" alt="">
+            </div>
+            <div class="carousel__slide" data-src="img/photo6.png">
+                <img src="img/photo6.jpg" alt="">
+            </div>
+            <div class="carousel__slide" data-src="img/photo7.png">
+                <img src="img/photo7.jpg" alt="">
+            </div>
+            <div class="carousel__slide" data-src="img/photo8.png">
+                <img src="img/photo8.png" alt="">
+            </div>
+            <div class="carousel__slide" data-src="img/photo9.png">
+                <img src="img/photo9.png" alt="">
+            </div>
+            <div class="carousel__slide" data-src="img/photo10.png">
+                <img src="img/photo10.png" alt="">
+            </div>
+            <div class="carousel__slide" data-src="img/photo11.png">
+                <img src="img/photo11.png" alt="">
+            </div>
+        </div>
         <aside>
-            <h2>over mij</h2>
-            <p>
-                Now for manners use has company believe parlors.
-                Least nor party who wrote while did. Excuse formed
-                as is agreed admire so on result parish. Put use set uncommonly announcing and travelling.
-                Allowance sweetness direction to as necessary. Principle oh explained excellent do my
-                suspected conveying in. Excellent you did therefore perfectly supposing described.
-            </p>
-            <p>
-                She who arrival end how fertile enabled.
-                Brother she add yet see minuter natural smiling
-                article painted. Themselves at dispatched interested insensible am be prosperous reasonably it.
-                In either so spring wished. Melancholy way she boisterous use friendship she dissimilar considered
-                Sex quick arose mrs lived. Mr things do plenty others an vanity myself waited to.
-            </p>
-        </aside>
-        <!--on mockup is a button | idea is to put image to correspond with author-->
-        <h2>title with triple image</h2>
-        <img src="#" alt="picture 1">
-        <section>
-            <h3>title under picture 1</h3>
-            <p>
-                She who arrival end how fertile enabled.
-                Brother she add yet see minuter natural smiling
-                article painted. Themselves at dispatched interested
-                insensible am be prosperous reasonably it.
-            </p>
-        </section>
-        <img src="#" alt="picture 2">
-        <section>
-            <h3>title under picture 2</h3>
-            <p>
-                She who arrival end how fertile enabled.
-                Brother she add yet see minuter natural smiling
-                article painted. Themselves at dispatched interested
-                insensible am be prosperous reasonably it.
-            </p>
-        </section>
-        <img src="#" alt="picture 3">
-        <section>
-            <h3>title under picture 3</h3>
-            <p>
-                She who arrival end how fertile enabled.
-                Brother she add yet see minuter natural smiling
-                article painted. Themselves at dispatched interested
-                insensible am be prosperous reasonably it.
-            </p>
-        </section>
-        <h2>recensies</h2>
-        <blockquote>
-            <p>
-                She who arrival end how fertile enabled.
-                Brother she add yet see minuter natural smiling
-            </p>
-            <cite>patrick bateman</cite>
-        </blockquote>
-        <blockquote>
-            <p>
-                She who arrival end how fertile enabled.
-                Brother she add yet see minuter natural smiling
-            </p>
-            <cite>patrick bateman</cite>
-        </blockquote>
-        <blockquote>
-            <p>
-                She who arrival end how fertile enabled.
-                Brother she add yet see minuter natural smiling
-            </p>
-            <cite>patrick bateman</cite>
-        </blockquote>
-        <blockquote>
-            <p>
-                She who arrival end how fertile enabled.
-                Brother she add yet see minuter natural smiling
-            </p>
-            <cite>patrick bateman</cite>
-        </blockquote>
-        <div id="contact_info">
             <div class="wrapper">
-                <section>
-                    <h4>contact me</h4>
-                    <!-- not sure if h4 is correct maybe h3 is better -->
+                <section class="about">
+                    <h2>Hallo, Ik ben Emmanuel !</h2>
+                    <h3>Wie Ben ik?</h3>
                     <p>
-                        interested in what is do?
-                    </p>
-                    <!-- this is only an idea of what the text underneath the h3/h4 should be-->
-                    <p>
-                        click on watch pictures or contact me for more info on what i do!
-                    </p>
-                    <!-- again this is only an idea of what the text should look like! not definitive-->
-                    <p>
-                        <a class="galerij" href="#">bekijk de foto's</a>
+                        ik ben een full-time reizende bruiloft/landschap/mode- en autofotograaf in Brussel.
                     </p>
                     <p>
-                        <a class="contact" href="#">contacteer ons</a>
+                        Ik werd fotograaf omdat het me een nieuw perspectief op het dagelijks leven gaf.
+                        Ik gebruik mijn fotocamera om van alles wat ik mooi vind een kunstwerk te maken.
+                        ik werd verliefd op elk facet van fotografie van de camera, het materiaal en de vrijheid die
+                        deze hobby biedt.
+                        de schoonheid van mijn passie is dat ik levenslange herinneringen kan geven met de mensen
+                        waarmee ik werk
                     </p>
                 </section>
+                <p><a href="contact.html" class="btn">Contacteer mij</a></p>
+            </div>
+        </aside>
+        <div id="maincontent">
+            <div class="line">
+                <h2>Mijn Specialiteiten</h2>
+            </div>
+            <div class="wrapper">
+                <section class="special1">
+                    <div class="image">
+                        <img src="img/photo12.jpg" alt="picture 1">
+                    </div>
+                    <h3>LandschapFotografie</h3>
+                    <h4>Van Astrofotografie, Panorama Fotografie, Long Exposure Fotografie tot Cloudscape Fotografie
+                    </h4>
+                    <p>
+                        deze specialisatie is een speciale dienst, als u een bepaalde foto wilt framen van een bepaald
+                        landschap kan ik persoonlijk naar u reizen of naar de plekwaar u mij wilt waar, ik dan prachtige
+                        foto's kan maken om ze daarna volledig in te framen hoe u dat wenst.
+                    </p>
+                </section>
+                <section class="special2">
+                    <div class="image">
+                        <img src="img/photo13.jpg" alt="picture 2">
+                    </div>
+                    <h3>AutoFotografie</h3>
+                    <h4>Van privé-auto-evenementen, drift-evenementen tot commerciële fotoshoots</h4>
+                    <p>
+                        als autoliefhebber ben ik beschikbaar voor elk auto-evenement in de wereld. deze flexibiliteit
+                        biedt mij de mogelijkheid om overal met iedereen te werken. u houdt van mijn autofotografie en u
+                        denkt dat ik de juiste persoon ben voor uw evenement? aarzel niet en stuur me een bericht!
+                    </p>
+                </section>
+                <section class="special3">
+                    <div class="image">
+                        <img src="img/photo14.jpg" alt="picture 3">
+                    </div>
+                    <h3>FashionFotografie</h3>
+                    <h4>Van magazine covers shoots tot streetwear mode-fotoshoots</h4>
+                    <p>
+                        als je een unieke mode-fotoshoot wilt ervaren en niet van saaie poses houdt? dan ben ik zeker
+                        jouw match!
+                    </p>
+                </section>
+            </div>
+        </div>
+        <div id="bottomcontent">
+            <div class="comments">
+                <h2>Recensies</h2>
+            </div>
+            <div class="wrapper">
+                <div class="quote">
+                    <blockquote>
+                        Als autoliefhebber moest ik op zoek naar de beste fotograaf voor mijn evenement. Toen ik
+                        Emmanuel op Facebook vond, wist ik dat hij de juiste persoon was. Emmanuel is een geweldige
+                        fotograaf - zijn foto's zijn helder en scherp. Hij is een echte pro, kent alle hoeken en
+                        weet precies wat je nodig hebt!
+                    </blockquote>
+                    <blockquote>
+                        &mdash; Jake, Los Angeles
+                    </blockquote>
+                </div>
+                <div class="quote">
+                    <blockquote class="modify1">
+                        Ik was op zoek naar een professionele fotograaf om foto's te maken op mijn bruiloft en Emmanuel
+                        was de perfecte persoon! De foto's die hij nam hebben ons een leven vol herinneringen gegeven.
+                    </blockquote>
+                    <blockquote>
+                        &mdash; Jennifer, Londen
+                    </blockquote>
+                </div>
+                <div class="quote">
+                    <blockquote>
+                        Ik kocht een landschapsfoto van Emmanuel en ik ben zo blij dat ik dat gedaan heb. De foto is met
+                        zorg samengesteld en de kwaliteit is perfect! Het ziet er precies zo uit als in mijn gedachten.
+                        Bedankt voor zo'n geweldig product, Emmanuel!
+                    </blockquote>
+                    <blockquote>
+                        &mdash; Louise, Antwerpen
+                    </blockquote>
+                </div>
+                <div class="quote">
+                    <blockquote class="modify2">
+                        Emmanuel is de beste streetwear-fotograaf die ik ooit heb gezien. Hij is op de hoogte van de
+                        laatste trends, kan in veel verschillende stijlen fotograferen en levert altijd resultaten van
+                        hoge kwaliteit.
+                    </blockquote>
+                    <blockquote>
+                        &mdash; John, Kaapstad
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div id="contact_info">
+            <div class="wrapper">
+                <section class="left">
+                    <h3>bent u klaar om magie te maken?</h3>
+                    <p>
+                        ik zou graag van u horen. Laat me weten hoe ik kan helpen met het plannen van uw evenement.
+                    </p>
+                </section>
+                <div class="right">
+                    <p><a class="galerij" href="galerij.html">bekijk de Galerij</a></p>
+                    <p><a class="contact" href="contact.html">contacteer Mij</a></p>
+                </div>
             </div>
         </div>
     </main>
     <div id="doormat">
         <div class="wrapper">
-            <img src="#" alt="logo SnyersPhotography">
+            <p id="logobot"><a href=""><img src="img/logo1.png" alt=""><span>Emmanuel Snyers</span></a></p>
             <address>
-                ons adres<br>
-                2788 baltimore<br>
-                telscombe drive 240<br>
-                united states<br>
-                telefoon: 0491074218<br>
-                email: info@SnyersPhotography.com:
+                Mijn adres<br>
+                1000 Brussel<br>
+                Rue des Tanneurs 343<br>
+                België<br>
+                telefoon:0471661796<br>
+                email:info@Emmanuelsnyers.com
             </address>
-            <div class="socials"></div>
-            <ul>
-                <li id="facebook">
-                    <img src="#" alt="logo facebook">
-                    like us
-                    <a href="https://www.facebook.com">on facebook</a>
-                </li>
-                <li id="instagram">
-                    <img src="#" alt="logo instagram">
-                    like us
-                    <a href="https://www.instagram.com">on instagram</a>
-                </li>
-            </ul>
+            <div class="socials">
+                <ul>
+                    <li class="facebook">
+                        <img src="img/facebook.png" alt="logo facebook">
+                        <a href="https://www.facebook.com">like mij<br>op facebook</a>
+                    </li>
+                    <li class="instagram">
+                        <img src="img/insta.png" alt="logo instagram">
+                        <a href="https://www.instagram.com"> like mij<br>op instagram</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <footer>
@@ -176,7 +229,11 @@
             </p>
         </div>
     </footer>
-    <!--footer text centered looks better!-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script>// Initialise Carousel
+        const mainCarousel = new Carousel(document.querySelector("#mainCarousel"), {
+            Dots: false,
+        });</script>
 </body>
 
 </html>
