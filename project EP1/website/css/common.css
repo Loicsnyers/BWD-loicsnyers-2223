@@ -1,7 +1,7 @@
 /* General */
 /* ======= */
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -35,8 +35,7 @@ header .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 110px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 
@@ -68,18 +67,23 @@ header .wrapper {
 /* ==== */
 
 nav ul {
-    display: flex;
+    display: block;
     list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-inline-start: 0px;
+}
+
+nav li a {
+    text-decoration: none;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-li a {
-    text-decoration: none;
-}
-
 nav a {
-    margin-left: 25px;
+    margin-left: 0px;
     padding: 5px 10px 5px 10px;
     text-decoration: none;
     text-transform: uppercase;
@@ -100,14 +104,11 @@ nav a:hover {
 /* ======= */
 
 #doormat .wrapper {
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    justify-content: center;
     align-items: center;
 }
 
-#doormat {
-    height: 200px;
-}
 
 #doormat ul {
     list-style: none;
@@ -118,7 +119,7 @@ nav a:hover {
 }
 
 #doormat {
-    height: 200px;
+    padding: 20px;
     background-color: #222222;
     color: #F7F7F2;
 }
@@ -142,6 +143,7 @@ address {
 .socials li a {
     margin-left: 0px;
     width: 98.76px;
+    text-decoration: none;
 }
 
 /* FOOTER */
@@ -162,8 +164,46 @@ footer small {
     color: #F7F7F2;
 }
 
+@media (min-width:500px) {
+    #doormat {
+        padding: 20px;
+        background-color: #222222;
+        color: #F7F7F2;
+    }
 
+    #doormat .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
 
+@media (min-width:650px) {
+    header .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 110px;
+        margin-bottom: 50px;
+    }
 
+    nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        padding-inline-start: 40px;
+    }
 
+    nav li a {
+        text-decoration: none;
+    }
 
+    nav a {
+        margin-left: 25px;
+        padding: 5px 10px 5px 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #2F2F2E;
+    }
+}

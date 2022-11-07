@@ -34,8 +34,8 @@
 /* ========= */
 
 #main_content .wrapper {
-    display: flex;
-    justify-content: space-evenly;
+    display: block;
+    justify-content: center;
     margin-bottom: 175px;
 }
 
@@ -46,28 +46,30 @@
 
 .underline {
     border-bottom: 1px solid #2F2F2E;
-    width: 350px;
+    width: 400px;
     padding-bottom: 6px;
     border-top: 1px solid #2F2F2E;
     padding-top: 10px;
     margin-top: 2px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .underline2 p {
     border-bottom: 1px solid #2F2F2E;
-    width: 350px;
+    width: 400px;
     padding-bottom: 6px;
 }
 
 .underline3 {
     border-bottom: 1px solid #2F2F2E;
-    width: 440px;
+    width: 400px;
     padding-bottom: 6px;
     border-top: 1px solid #2F2F2E;
     padding-top: 10px;
     margin-top: 2px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .gallery_left {
@@ -79,9 +81,7 @@
     border-radius: 8px 8px 8px 8px;
 }
 
-.right {
-    width: 33%;
-}
+
 
 .textleft {
     text-align: left;
@@ -93,7 +93,59 @@
 
 .subheader {
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
 }
 
 /* ======= */
 /* ======= */
+
+@media(min-width:450px) {
+    .underline {
+        border-bottom: 1px solid #2F2F2E;
+        width: 350px;
+        padding-bottom: 6px;
+        border-top: 1px solid #2F2F2E;
+        padding-top: 10px;
+        margin-top: 2px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    #main_content .wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 175px;
+    }
+
+    .underline2 p {
+        border-bottom: 1px solid #2F2F2E;
+        width: 350px;
+        padding-bottom: 6px;
+    }
+
+    .underline3 {
+        border-bottom: 1px solid #2F2F2E;
+        width: 440px;
+        padding-bottom: 6px;
+        border-top: 1px solid #2F2F2E;
+        padding-top: 10px;
+        margin-top: 2px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    .subheader {
+        text-transform: uppercase;
+    }
+
+    .right {
+        width: 33%;
+    }
+
+    .subheader {
+        text-transform: uppercase;
+        display: flex;
+        justify-content: left;
+    }
+}

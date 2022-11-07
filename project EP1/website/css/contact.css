@@ -4,6 +4,11 @@
 .mapouter {
     position: relative;
     text-align: center;
+    display: none;
+}
+
+iframe {
+    border: none;
 }
 
 .gmap_canvas {
@@ -74,6 +79,7 @@ h3 .wrapper {
 
 label, input {
     display: block;
+    text-align: center;
 }
 
 label {
@@ -122,7 +128,7 @@ label {
 }
 
 .subj input {
-    width: 1275px;
+    width: 413px;
     border: 4px solid #2F2F2E;
     border-radius: 4px 4px 4px 4px;
     padding: 8px;
@@ -131,12 +137,16 @@ label {
 }
 
 .mssg textarea {
-    width: 1275px;
+    width: 413px;
     border: 4px solid #2F2F2E;
     border-radius: 4px 4px 4px 4px;
     height: 125px;
     margin-bottom: 30px;
     margin-top: 15px;
+}
+
+div .button {
+    text-align: center;
 }
 
 .button_submit {
@@ -155,8 +165,43 @@ label {
 .button_submit:hover {
     transition: 0.5s ease-in-out;
     color: #2F2F2E;
-    background-color:#EAD2AB ;
+    background-color: #EAD2AB;
 }
 
 /* ======= */
 /* ======= */
+
+@media(min-width:450px) {
+    .mapouter {
+        position: relative;
+        text-align: center;
+        display: block;
+    }
+
+    .subj input {
+        width: 1275px;
+        border: 4px solid #2F2F2E;
+        border-radius: 4px 4px 4px 4px;
+        padding: 8px;
+        margin-bottom: 25px;
+        margin-top: 15px;
+    }
+
+    .mssg textarea {
+        width: 1275px;
+        border: 4px solid #2F2F2E;
+        border-radius: 4px 4px 4px 4px;
+        height: 125px;
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+
+    div .button {
+        text-align: left;
+    }
+
+    label, input {
+        display: block;
+        text-align: left;
+    }
+}

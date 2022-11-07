@@ -25,14 +25,15 @@
 /* ==== */
 
 main .wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
+    display: block;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 200px;
 }
 
 section h3 {
     text-transform: uppercase;
+    text-align: center;
 }
 
 section img {
@@ -46,18 +47,18 @@ section p {
 
 .left {
     width: 400px;
-    text-align: justify;
+    text-align: center;
     margin-right: 15px;
 }
 
 .middle {
     width: 400px;
-    text-align: justify;
+    text-align: center;
 }
 
 .right {
     width: 400px;
-    text-align: justify;
+    text-align: center;
     margin-left: 15px;
 }
 
@@ -71,3 +72,34 @@ blockquote {
 
 /* ======= */
 /* ======= */
+
+@media(min-width:450px) {
+    main .wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+        margin-bottom: 200px;
+    }
+
+    section h3 {
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    .left {
+        width: 400px;
+        text-align: justify;
+        margin-right: 15px;
+    }
+
+    .middle {
+        width: 400px;
+        text-align: justify;
+    }
+
+    .right {
+        width: 400px;
+        text-align: justify;
+        margin-left: 15px;
+    }
+}
